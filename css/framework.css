@@ -1,0 +1,332 @@
+/*start Padding */
+.p-20 {
+  padding: 20px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+/*End Padding */
+
+/* start color  */
+.bg-white {
+  background-color: white;
+}
+
+.c-grey {
+  color: #888;
+}
+
+.bg-grey {
+  background-color: #888;
+}
+
+.c-white {
+  color: white;
+}
+
+.c-red {
+  color: #f44336;
+}
+
+.bg-red {
+  background-color: #f44336;
+  ;
+}
+
+.bg-eee {
+  background-color: #eee;
+}
+
+.c-blue {
+  color: #0075ff;
+}
+
+.bg-blue {
+  background-color: #0075ff;
+}
+
+.c-black {
+  color: black;
+}
+
+.c-orange {
+  color: #f59e0b;
+}
+
+.bg-orange {
+  background-color: #f59e0b;
+}
+
+.c-green {
+  color: #22c55e;
+}
+
+.bg-green {
+  background-color: #22c55e;
+}
+
+/* end color  */
+
+/* start font  */
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.txt-c {
+  text-align: center;
+}
+
+/* start font  */
+
+/* start display */
+.d-flex {
+  display: flex;
+}
+
+.align-flex {
+  align-items: center;
+}
+
+.over-hidden {
+  overflow: hidden;
+}
+
+.between-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-block {
+  display: block;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.toggle-checkbox {
+  appearance: none;
+  display: none;
+}
+
+.toggle-switch {
+  width: 78px;
+  height: 32px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  background-color: #ccc;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.toggle-checkbox:checked+.toggle-switch {
+  background-color: #0075ff;
+}
+
+.toggle-checkbox:checked+.toggle-switch::before {
+  color: #0075ff;
+  left: 50px;
+  content: "\f00c";
+}
+
+.toggle-switch::before {
+  font-family: var(--fa-style-family-classic);
+  content: "\f00d";
+  font-weight: 900;
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  border-radius: 50%;
+  top: 4px;
+  left: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+/* End display */
+
+/* start border */
+.rad-10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.rad-6 {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.rad-half {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.b-none {
+  border: none;
+}
+
+/* End border */
+
+/* start width and height */
+.w-full {
+  width: 100%;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+/* end width  */
+
+/* start margin */
+.m-0 {
+  margin: 0;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.hm-10 {
+  margin: 0 0 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+
+/* end margin */
+
+/* start meida  */
+@media (max-width : 767px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .mobile-column {
+    flex-direction: column;
+  }
+
+  .respo-mobile {
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+}
+
+/* end meida  */
