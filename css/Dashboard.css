@@ -1471,6 +1471,7 @@ ul {
 .files {
   gap: 20px;
   align-items: flex;
+  margin: 20px;
 }
 
 /* start folders  */
